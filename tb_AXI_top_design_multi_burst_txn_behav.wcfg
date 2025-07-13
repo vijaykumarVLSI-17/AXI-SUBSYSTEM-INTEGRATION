@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_AXI_top_design_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_AXI_top_design" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7800001fs"></ZoomEndTime>
+      <Cursor1Time time="200000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="536" />
+   <wvobject type="divider" fp_name="divider512">
+      <obj_property name="label">AXI_Interconnect_AW_Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ARESETn" type="logic">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWADDR" type="array">
+      <obj_property name="ElementShortName">I_in_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWBURST" type="array">
+      <obj_property name="ElementShortName">I_in_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWLEN" type="array">
+      <obj_property name="ElementShortName">I_in_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWSIZE" type="array">
+      <obj_property name="ElementShortName">I_in_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWID" type="array">
+      <obj_property name="ElementShortName">I_in_AWID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_AWVALID" type="logic">
+      <obj_property name="ElementShortName">I_in_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">I_in_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_AWREADY" type="logic">
+      <obj_property name="ElementShortName">I_out_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">I_out_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_write_en" type="logic">
+      <obj_property name="ElementShortName">AXI4_write_en</obj_property>
+      <obj_property name="ObjectShortName">AXI4_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/addr_mem" type="array">
+      <obj_property name="ElementShortName">addr_mem[15:0][49:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_mem[15:0][49:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/aw_index_count" type="array">
+      <obj_property name="ElementShortName">aw_index_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_index_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/aw_read_count" type="array">
+      <obj_property name="ElementShortName">aw_read_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aw_read_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/write_addr_state" type="array">
+      <obj_property name="ElementShortName">write_addr_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_AWREADY" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWVALID" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWADDR" type="array">
+      <obj_property name="ElementShortName">AXI4_out_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWBURST" type="array">
+      <obj_property name="ElementShortName">AXI4_out_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWLEN" type="array">
+      <obj_property name="ElementShortName">AXI4_out_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWSIZE" type="array">
+      <obj_property name="ElementShortName">AXI4_out_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_AWID" type="array">
+      <obj_property name="ElementShortName">AXI4_out_AWID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_AWID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider511">
+      <obj_property name="label">AXI_AW_BUFFER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_rst" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_rst</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWADDR" type="array">
+      <obj_property name="ElementShortName">in_fifo_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWBURST" type="array">
+      <obj_property name="ElementShortName">in_fifo_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWLEN" type="array">
+      <obj_property name="ElementShortName">in_fifo_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWSIZE" type="array">
+      <obj_property name="ElementShortName">in_fifo_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWID" type="array">
+      <obj_property name="ElementShortName">in_fifo_AWID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWVALID" type="logic">
+      <obj_property name="ElementShortName">in_fifo_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWREADY" type="logic">
+      <obj_property name="ElementShortName">out_fifo_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/FIFO_is_almost_full" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_full</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/FIFO_is_almost_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/FIFO_w_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_w_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_w_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/FIFO_MEMORY" type="array">
+      <obj_property name="ElementShortName">FIFO_MEMORY[15:0][49:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_MEMORY[15:0][49:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/FIFO_r_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_r_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_r_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_r_en" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_r_en</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_full" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/AW_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/in_fifo_AWREADY" type="logic">
+      <obj_property name="ElementShortName">in_fifo_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWVALID" type="logic">
+      <obj_property name="ElementShortName">out_fifo_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWADDR" type="array">
+      <obj_property name="ElementShortName">out_fifo_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWBURST" type="array">
+      <obj_property name="ElementShortName">out_fifo_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWLEN" type="array">
+      <obj_property name="ElementShortName">out_fifo_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWSIZE" type="array">
+      <obj_property name="ElementShortName">out_fifo_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/aw_buffer/out_fifo_AWID" type="array">
+      <obj_property name="ElementShortName">out_fifo_AWID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_AWID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider510">
+      <obj_property name="label">AW_CHANNEL_MEM_CONTLR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_CLK" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_CLK</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_RST" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_RST</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AW_r_en" type="logic">
+      <obj_property name="ElementShortName">AW_r_en</obj_property>
+      <obj_property name="ObjectShortName">AW_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWADDR_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">AWADDR_mem_contlr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWADDR_mem_contlr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWBURST_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">AWBURST_mem_contlr_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AWBURST_mem_contlr_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWLEN_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">AWLEN_mem_contlr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLEN_mem_contlr_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWSIZE_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">AWSIZE_mem_contlr_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWSIZE_mem_contlr_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWID_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">AWID_mem_contlr_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AWID_mem_contlr_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWVALID_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">AWVALID_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">AWVALID_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">AWREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">AWREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">AWREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">AWREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/burst_progress" type="logic">
+      <obj_property name="ElementShortName">burst_progress</obj_property>
+      <obj_property name="ObjectShortName">burst_progress</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/burst_complete" type="logic">
+      <obj_property name="ElementShortName">burst_complete</obj_property>
+      <obj_property name="ObjectShortName">burst_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AW_fifo_empty_in" type="logic">
+      <obj_property name="ElementShortName">AW_fifo_empty_in</obj_property>
+      <obj_property name="ObjectShortName">AW_fifo_empty_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/starting_addr_reg" type="array">
+      <obj_property name="ElementShortName">starting_addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">starting_addr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_burst_type_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_burst_type_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_burst_type_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_awlen_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_awlen_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_awlen_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_beat_size_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_beat_size_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_beat_size_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_awid_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_awid_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_awid_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AW_txn_state" type="array">
+      <obj_property name="ElementShortName">AW_txn_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AW_txn_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_burst_counter" type="array">
+      <obj_property name="ElementShortName">mem_contlr_burst_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_burst_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">AWREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">AWREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">AWVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">AWVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWADDR_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWADDR_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWADDR_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWBURST_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWBURST_mem_contlr_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AWBURST_mem_contlr_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWLEN_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWLEN_mem_contlr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLEN_mem_contlr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWSIZE_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWSIZE_mem_contlr_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWSIZE_mem_contlr_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWID_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWID_mem_contlr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AWID_mem_contlr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider509">
+      <obj_property name="label">AXI_Interconnect_W_Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ARESETn" type="logic">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_WDATA" type="array">
+      <obj_property name="ElementShortName">I_in_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_WSTRB" type="array">
+      <obj_property name="ElementShortName">I_in_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_WLAST" type="logic">
+      <obj_property name="ElementShortName">I_in_WLAST</obj_property>
+      <obj_property name="ObjectShortName">I_in_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_WVALID" type="logic">
+      <obj_property name="ElementShortName">I_in_WVALID</obj_property>
+      <obj_property name="ObjectShortName">I_in_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_WREADY" type="logic">
+      <obj_property name="ElementShortName">I_out_WREADY</obj_property>
+      <obj_property name="ObjectShortName">I_out_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_write_en" type="logic">
+      <obj_property name="ElementShortName">AXI4_write_en</obj_property>
+      <obj_property name="ObjectShortName">AXI4_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[15:0][36:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[15:0][36:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/w_index_count" type="array">
+      <obj_property name="ElementShortName">w_index_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_index_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/w_read_count" type="array">
+      <obj_property name="ElementShortName">w_read_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_read_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/write_data_state" type="array">
+      <obj_property name="ElementShortName">write_data_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_WREADY" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_WREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_WVALID" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_WVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_WDATA" type="array">
+      <obj_property name="ElementShortName">AXI4_out_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_WSTRB" type="array">
+      <obj_property name="ElementShortName">AXI4_out_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_WLAST" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_WLAST</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_WLAST</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider508">
+      <obj_property name="label">AXI_W_BUFFER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">W_fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_rst" type="logic">
+      <obj_property name="ElementShortName">W_fifo_rst</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">W_fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/in_fifo_WDATA" type="array">
+      <obj_property name="ElementShortName">in_fifo_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/in_fifo_WSTRB" type="array">
+      <obj_property name="ElementShortName">in_fifo_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/in_fifo_WLAST" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WLAST</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/in_fifo_WVALID" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WVALID</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/out_fifo_WREADY" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WREADY</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/FIFO_MEMORY" type="array">
+      <obj_property name="ElementShortName">FIFO_MEMORY[31:0][36:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_MEMORY[31:0][36:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_occupancy" type="array">
+      <obj_property name="ElementShortName">W_fifo_occupancy[4:0]</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_occupancy[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/FIFO_w_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_w_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_w_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/FIFO_r_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_r_ptr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_r_ptr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_full" type="logic">
+      <obj_property name="ElementShortName">W_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">W_fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/W_r_en" type="logic">
+      <obj_property name="ElementShortName">W_r_en</obj_property>
+      <obj_property name="ObjectShortName">W_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">W_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/W_fifo_r_en" type="logic">
+      <obj_property name="ElementShortName">W_fifo_r_en</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/in_fifo_WREADY" type="logic">
+      <obj_property name="ElementShortName">in_fifo_WREADY</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/r_en_d" type="logic">
+      <obj_property name="ElementShortName">r_en_d</obj_property>
+      <obj_property name="ObjectShortName">r_en_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/read_pulse" type="logic">
+      <obj_property name="ElementShortName">read_pulse</obj_property>
+      <obj_property name="ObjectShortName">read_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/out_fifo_WVALID" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WVALID</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/out_fifo_WDATA" type="array">
+      <obj_property name="ElementShortName">out_fifo_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/out_fifo_WSTRB" type="array">
+      <obj_property name="ElementShortName">out_fifo_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/w_buffer/out_fifo_WLAST" type="logic">
+      <obj_property name="ElementShortName">out_fifo_WLAST</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_WLAST</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider507">
+      <obj_property name="label">W_CHANNEL_MEM_CONTLR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_CLK" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_CLK</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_RST" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_RST</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WDATA_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">WDATA_mem_contlr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_mem_contlr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WSTRB_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">WSTRB_mem_contlr_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRB_mem_contlr_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WLAST_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">WLAST_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">WLAST_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WVALID_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">WVALID_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">WVALID_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">WREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">WREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/data_beat_counter" type="array">
+      <obj_property name="ElementShortName">data_beat_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_beat_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/W_txn_state" type="array">
+      <obj_property name="ElementShortName">W_txn_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">W_txn_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/burst_progress" type="logic">
+      <obj_property name="ElementShortName">burst_progress</obj_property>
+      <obj_property name="ObjectShortName">burst_progress</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/burst_complete" type="logic">
+      <obj_property name="ElementShortName">burst_complete</obj_property>
+      <obj_property name="ObjectShortName">burst_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/W_fifo_empty_in" type="logic">
+      <obj_property name="ElementShortName">W_fifo_empty_in</obj_property>
+      <obj_property name="ObjectShortName">W_fifo_empty_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/fifo_occupancy" type="array">
+      <obj_property name="ElementShortName">fifo_occupancy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_occupancy[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_wdata_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_wdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_wdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_wstrb_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_wstrb_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_wstrb_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_wlast_reg" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_wlast_reg</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_wlast_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">WREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">WREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">WVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">WVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WDATA_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">WDATA_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WSTRB_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">WSTRB_mem_contlr_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRB_mem_contlr_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WLAST_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">WLAST_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">WLAST_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider505">
+      <obj_property name="label">B_CHANNEL_MEM_CONTLR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_CLK" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_CLK</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_RST" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_RST</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BVALID_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">BVALID_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">BVALID_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">BREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">BREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/B_txn_state" type="array">
+      <obj_property name="ElementShortName">B_txn_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">B_txn_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/b_index_count" type="array">
+      <obj_property name="ElementShortName">b_index_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">b_index_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/stored_mem" type="array">
+      <obj_property name="ElementShortName">stored_mem[4:0][12:0]</obj_property>
+      <obj_property name="ObjectShortName">stored_mem[4:0][12:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/valid_entry" type="logic">
+      <obj_property name="ElementShortName">valid_entry</obj_property>
+      <obj_property name="ObjectShortName">valid_entry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/b_read_count" type="array">
+      <obj_property name="ElementShortName">b_read_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">b_read_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/valid_counter" type="array">
+      <obj_property name="ElementShortName">valid_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">BVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">BVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">BREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">BREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BRESP_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">BRESP_mem_contlr_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP_mem_contlr_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/BID_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">BID_mem_contlr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">BID_mem_contlr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider506">
+      <obj_property name="label">AXI_Interconnect_B_Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ARESETn" type="logic">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_BRESP" type="array">
+      <obj_property name="ElementShortName">AXI4_in_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_BID" type="array">
+      <obj_property name="ElementShortName">AXI4_in_BID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_BID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_BVALID" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_BVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_BREADY" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_BREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/write_resp_state" type="array">
+      <obj_property name="ElementShortName">write_resp_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_resp_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_BRESP" type="array">
+      <obj_property name="ElementShortName">I_out_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_BID" type="array">
+      <obj_property name="ElementShortName">I_out_BID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out_BID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_BREADY" type="logic">
+      <obj_property name="ElementShortName">I_in_BREADY</obj_property>
+      <obj_property name="ObjectShortName">I_in_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_BVALID" type="logic">
+      <obj_property name="ElementShortName">I_out_BVALID</obj_property>
+      <obj_property name="ObjectShortName">I_out_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider504">
+      <obj_property name="label">AXI_INTERCONNECT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ARESETn" type="logic">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARADDR" type="array">
+      <obj_property name="ElementShortName">I_in_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARBURST" type="array">
+      <obj_property name="ElementShortName">I_in_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARLEN" type="array">
+      <obj_property name="ElementShortName">I_in_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARSIZE" type="array">
+      <obj_property name="ElementShortName">I_in_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARID" type="array">
+      <obj_property name="ElementShortName">I_in_ARID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_ARVALID" type="logic">
+      <obj_property name="ElementShortName">I_in_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">I_in_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_ARREADY" type="logic">
+      <obj_property name="ElementShortName">I_out_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">I_out_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ar_index_count" type="array">
+      <obj_property name="ElementShortName">ar_index_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_index_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/raddr_mem" type="array">
+      <obj_property name="ElementShortName">raddr_mem[15:0][49:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr_mem[15:0][49:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ar_read_count" type="array">
+      <obj_property name="ElementShortName">ar_read_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ar_read_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/read_raddr_state" type="array">
+      <obj_property name="ElementShortName">read_raddr_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_raddr_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/rburst_txn_complete" type="logic">
+      <obj_property name="ElementShortName">rburst_txn_complete</obj_property>
+      <obj_property name="ObjectShortName">rburst_txn_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_ARREADY" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARVALID" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARADDR" type="array">
+      <obj_property name="ElementShortName">AXI4_out_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARBURST" type="array">
+      <obj_property name="ElementShortName">AXI4_out_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARLEN" type="array">
+      <obj_property name="ElementShortName">AXI4_out_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARSIZE" type="array">
+      <obj_property name="ElementShortName">AXI4_out_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_ARID" type="array">
+      <obj_property name="ElementShortName">AXI4_out_ARID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_ARID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider503">
+      <obj_property name="label">AXI_AR_BUFFER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_rst" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_rst</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_w_en" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_w_en</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARADDR" type="array">
+      <obj_property name="ElementShortName">in_fifo_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARBURST" type="array">
+      <obj_property name="ElementShortName">in_fifo_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARLEN" type="array">
+      <obj_property name="ElementShortName">in_fifo_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARSIZE" type="array">
+      <obj_property name="ElementShortName">in_fifo_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARID" type="array">
+      <obj_property name="ElementShortName">in_fifo_ARID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARVALID" type="logic">
+      <obj_property name="ElementShortName">in_fifo_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARREADY" type="logic">
+      <obj_property name="ElementShortName">out_fifo_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/FIFO_is_almost_full" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_full</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/FIFO_is_almost_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_is_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_is_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/FIFO_w_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_w_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_w_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/FIFO_MEMORY" type="array">
+      <obj_property name="ElementShortName">FIFO_MEMORY[15:0][49:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_MEMORY[15:0][49:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/FIFO_r_ptr" type="array">
+      <obj_property name="ElementShortName">FIFO_r_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_r_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_r_en" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_r_en</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_full" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/AR_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/in_fifo_ARREADY" type="logic">
+      <obj_property name="ElementShortName">in_fifo_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARVALID" type="logic">
+      <obj_property name="ElementShortName">out_fifo_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARADDR" type="array">
+      <obj_property name="ElementShortName">out_fifo_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARBURST" type="array">
+      <obj_property name="ElementShortName">out_fifo_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARBURST[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARLEN" type="array">
+      <obj_property name="ElementShortName">out_fifo_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARLEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARSIZE" type="array">
+      <obj_property name="ElementShortName">out_fifo_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/ar_buffer/out_fifo_ARID" type="array">
+      <obj_property name="ElementShortName">out_fifo_ARID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">out_fifo_ARID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider502">
+      <obj_property name="label">AR_CHANNEL_MEM_CONTLR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_CLK" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_CLK</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_RST" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_RST</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AR_r_en" type="logic">
+      <obj_property name="ElementShortName">AR_r_en</obj_property>
+      <obj_property name="ObjectShortName">AR_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARADDR_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">ARADDR_mem_contlr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARADDR_mem_contlr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARBURST_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">ARBURST_mem_contlr_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ARBURST_mem_contlr_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARLEN_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">ARLEN_mem_contlr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ARLEN_mem_contlr_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARSIZE_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">ARSIZE_mem_contlr_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ARSIZE_mem_contlr_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARID_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">ARID_mem_contlr_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ARID_mem_contlr_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AR_fifo_empty_in" type="logic">
+      <obj_property name="ElementShortName">AR_fifo_empty_in</obj_property>
+      <obj_property name="ObjectShortName">AR_fifo_empty_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARVALID_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">ARVALID_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">ARVALID_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">ARREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">ARREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/starting_raddr_reg" type="array">
+      <obj_property name="ElementShortName">starting_raddr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">starting_raddr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_rburst_type_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_rburst_type_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_rburst_type_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_arlen_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_arlen_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_arlen_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_rbeat_size_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_rbeat_size_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_rbeat_size_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_arid_reg" type="array">
+      <obj_property name="ElementShortName">mem_contlr_arid_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_arid_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AR_txn_state" type="array">
+      <obj_property name="ElementShortName">AR_txn_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AR_txn_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">ARREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">ARREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">ARVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">ARVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARADDR_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">ARADDR_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARADDR_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARBURST_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">ARBURST_mem_contlr_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ARBURST_mem_contlr_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARLEN_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">ARLEN_mem_contlr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ARLEN_mem_contlr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARSIZE_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">ARSIZE_mem_contlr_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ARSIZE_mem_contlr_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ARID_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">ARID_mem_contlr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ARID_mem_contlr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider501">
+      <obj_property name="label">R_CHANNEL_MEM_CONTLR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_CLK" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_CLK</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_RST" type="logic">
+      <obj_property name="ElementShortName">mem_contlr_RST</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RDATA_mem_contlr_in" type="array">
+      <obj_property name="ElementShortName">RDATA_mem_contlr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_mem_contlr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RVALID_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">RVALID_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">RVALID_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RREADY_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">RREADY_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">RREADY_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/rburst_progress" type="logic">
+      <obj_property name="ElementShortName">rburst_progress</obj_property>
+      <obj_property name="ObjectShortName">rburst_progress</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/rburst_complete" type="logic">
+      <obj_property name="ElementShortName">rburst_complete</obj_property>
+      <obj_property name="ObjectShortName">rburst_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/R_txn_state" type="array">
+      <obj_property name="ElementShortName">R_txn_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">R_txn_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/rdata_reg" type="array">
+      <obj_property name="ElementShortName">rdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RDATA_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">RDATA_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RID_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">RID_mem_contlr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RID_mem_contlr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RLAST_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">RLAST_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">RLAST_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">RVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">RVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/RREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">RREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">RREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider588">
+      <obj_property name="label">AXI_Interconnect_R_Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/ARESETn" type="logic">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_RDATA" type="array">
+      <obj_property name="ElementShortName">AXI4_in_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_RID" type="array">
+      <obj_property name="ElementShortName">AXI4_in_RID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_RID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_RLAST" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_RLAST</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_RLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_out_RREADY" type="logic">
+      <obj_property name="ElementShortName">AXI4_out_RREADY</obj_property>
+      <obj_property name="ObjectShortName">AXI4_out_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/AXI4_in_RVALID" type="logic">
+      <obj_property name="ElementShortName">AXI4_in_RVALID</obj_property>
+      <obj_property name="ObjectShortName">AXI4_in_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/rdata_reg" type="array">
+      <obj_property name="ElementShortName">rdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/rid_reg" type="array">
+      <obj_property name="ElementShortName">rid_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rid_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/rlast_reg" type="logic">
+      <obj_property name="ElementShortName">rlast_reg</obj_property>
+      <obj_property name="ObjectShortName">rlast_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/read_data_state" type="array">
+      <obj_property name="ElementShortName">read_data_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_in_RREADY" type="logic">
+      <obj_property name="ElementShortName">I_in_RREADY</obj_property>
+      <obj_property name="ObjectShortName">I_in_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_RVALID" type="logic">
+      <obj_property name="ElementShortName">I_out_RVALID</obj_property>
+      <obj_property name="ObjectShortName">I_out_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_RDATA" type="array">
+      <obj_property name="ElementShortName">I_out_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_RID" type="array">
+      <obj_property name="ElementShortName">I_out_RID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">I_out_RID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/I_out_RLAST" type="logic">
+      <obj_property name="ElementShortName">I_out_RLAST</obj_property>
+      <obj_property name="ObjectShortName">I_out_RLAST</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider471">
+      <obj_property name="label">TOP_ECC_BRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/m_clk" type="logic">
+      <obj_property name="ElementShortName">m_clk</obj_property>
+      <obj_property name="ObjectShortName">m_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/m_rst" type="logic">
+      <obj_property name="ElementShortName">m_rst</obj_property>
+      <obj_property name="ObjectShortName">m_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/web" type="logic">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/WA_valid" type="logic">
+      <obj_property name="ElementShortName">WA_valid</obj_property>
+      <obj_property name="ObjectShortName">WA_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/S_ready" type="logic">
+      <obj_property name="ElementShortName">S_ready</obj_property>
+      <obj_property name="ObjectShortName">S_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/mem_full" type="logic">
+      <obj_property name="ElementShortName">mem_full</obj_property>
+      <obj_property name="ObjectShortName">mem_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/o_WD_valid" type="logic">
+      <obj_property name="ElementShortName">o_WD_valid</obj_property>
+      <obj_property name="ObjectShortName">o_WD_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/t_ready" type="logic">
+      <obj_property name="ElementShortName">t_ready</obj_property>
+      <obj_property name="ObjectShortName">t_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/addra" type="array">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/W_strobe" type="array">
+      <obj_property name="ElementShortName">W_strobe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_strobe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/E_ready_HE" type="logic">
+      <obj_property name="ElementShortName">E_ready_HE</obj_property>
+      <obj_property name="ObjectShortName">E_ready_HE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/MM_ena_HE" type="logic">
+      <obj_property name="ElementShortName">MM_ena_HE</obj_property>
+      <obj_property name="ObjectShortName">MM_ena_HE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/HE_WA_valid_MM" type="logic">
+      <obj_property name="ElementShortName">HE_WA_valid_MM</obj_property>
+      <obj_property name="ObjectShortName">HE_WA_valid_MM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/HE_mem_full_MM" type="logic">
+      <obj_property name="ElementShortName">HE_mem_full_MM</obj_property>
+      <obj_property name="ObjectShortName">HE_mem_full_MM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/EC_W_strobe_HE" type="array">
+      <obj_property name="ElementShortName">EC_W_strobe_HE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EC_W_strobe_HE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/HE_data_MM" type="array">
+      <obj_property name="ElementShortName">HE_data_MM[37:0]</obj_property>
+      <obj_property name="ObjectShortName">HE_data_MM[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/MM_data_HD" type="array">
+      <obj_property name="ElementShortName">MM_data_HD[37:0]</obj_property>
+      <obj_property name="ObjectShortName">MM_data_HD[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/douta" type="array">
+      <obj_property name="ElementShortName">douta[37:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/E_data_HE" type="array">
+      <obj_property name="ElementShortName">E_data_HE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_data_HE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/E_address_HE" type="array">
+      <obj_property name="ElementShortName">E_address_HE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_address_HE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/HE_address_MM" type="array">
+      <obj_property name="ElementShortName">HE_address_MM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HE_address_MM[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider571">
+      <obj_property name="label">ECC_MEM_CONTROLLER_WAVES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/address_in" type="array">
+      <obj_property name="ElementShortName">address_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/W_strobe" type="array">
+      <obj_property name="ElementShortName">W_strobe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_strobe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/c_clk" type="logic">
+      <obj_property name="ElementShortName">c_clk</obj_property>
+      <obj_property name="ObjectShortName">c_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/c_rst" type="logic">
+      <obj_property name="ElementShortName">c_rst</obj_property>
+      <obj_property name="ObjectShortName">c_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/S_ready" type="logic">
+      <obj_property name="ElementShortName">S_ready</obj_property>
+      <obj_property name="ObjectShortName">S_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/WA_valid" type="logic">
+      <obj_property name="ElementShortName">WA_valid</obj_property>
+      <obj_property name="ObjectShortName">WA_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem_full" type="logic">
+      <obj_property name="ElementShortName">mem_full</obj_property>
+      <obj_property name="ObjectShortName">mem_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem" type="array">
+      <obj_property name="ElementShortName">mem[127:0][67:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[127:0][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/index_count" type="array">
+      <obj_property name="ElementShortName">index_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">index_count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/i" type="array">
+      <obj_property name="ElementShortName">i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/j" type="array">
+      <obj_property name="ElementShortName">j[15:0]</obj_property>
+      <obj_property name="ObjectShortName">j[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/data_shift" type="logic">
+      <obj_property name="ElementShortName">data_shift</obj_property>
+      <obj_property name="ObjectShortName">data_shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/data_shift_completed" type="logic">
+      <obj_property name="ElementShortName">data_shift_completed</obj_property>
+      <obj_property name="ObjectShortName">data_shift_completed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/data_transfer" type="logic">
+      <obj_property name="ElementShortName">data_transfer</obj_property>
+      <obj_property name="ObjectShortName">data_transfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/address_out" type="array">
+      <obj_property name="ElementShortName">address_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/o_W_strobe" type="array">
+      <obj_property name="ElementShortName">o_W_strobe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_W_strobe[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider570">
+      <obj_property name="label">ECC_ENCODING_WAVES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/message_data" type="array">
+      <obj_property name="ElementShortName">message_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">message_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/address_in" type="array">
+      <obj_property name="ElementShortName">address_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/W_strobe" type="array">
+      <obj_property name="ElementShortName">W_strobe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">W_strobe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/douta" type="array">
+      <obj_property name="ElementShortName">douta[37:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/e_clk" type="logic">
+      <obj_property name="ElementShortName">e_clk</obj_property>
+      <obj_property name="ObjectShortName">e_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/e_rst" type="logic">
+      <obj_property name="ElementShortName">e_rst</obj_property>
+      <obj_property name="ObjectShortName">e_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/Main_mem_full" type="logic">
+      <obj_property name="ElementShortName">Main_mem_full</obj_property>
+      <obj_property name="ObjectShortName">Main_mem_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/encodded_data" type="array">
+      <obj_property name="ElementShortName">encodded_data[37:0]</obj_property>
+      <obj_property name="ObjectShortName">encodded_data[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/address_out" type="array">
+      <obj_property name="ElementShortName">address_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P1" type="logic">
+      <obj_property name="ElementShortName">P1</obj_property>
+      <obj_property name="ObjectShortName">P1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P2" type="logic">
+      <obj_property name="ElementShortName">P2</obj_property>
+      <obj_property name="ObjectShortName">P2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P3" type="logic">
+      <obj_property name="ElementShortName">P3</obj_property>
+      <obj_property name="ObjectShortName">P3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P4" type="logic">
+      <obj_property name="ElementShortName">P4</obj_property>
+      <obj_property name="ObjectShortName">P4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P5" type="logic">
+      <obj_property name="ElementShortName">P5</obj_property>
+      <obj_property name="ObjectShortName">P5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P6" type="logic">
+      <obj_property name="ElementShortName">P6</obj_property>
+      <obj_property name="ObjectShortName">P6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P7" type="logic">
+      <obj_property name="ElementShortName">P7</obj_property>
+      <obj_property name="ObjectShortName">P7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/n_state" type="array">
+      <obj_property name="ElementShortName">n_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P_reg_count" type="array">
+      <obj_property name="ElementShortName">P_reg_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_reg_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/m_bit_count" type="array">
+      <obj_property name="ElementShortName">m_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/t_m_b_count" type="array">
+      <obj_property name="ElementShortName">t_m_b_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t_m_b_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/n" type="array">
+      <obj_property name="ElementShortName">n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/rotation_count" type="array">
+      <obj_property name="ElementShortName">rotation_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rotation_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P1_reg" type="array">
+      <obj_property name="ElementShortName">P1_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P1_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P2_reg" type="array">
+      <obj_property name="ElementShortName">P2_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P2_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P3_reg" type="array">
+      <obj_property name="ElementShortName">P3_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P3_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P4_reg" type="array">
+      <obj_property name="ElementShortName">P4_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P4_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P5_reg" type="array">
+      <obj_property name="ElementShortName">P5_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P5_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P6_reg" type="array">
+      <obj_property name="ElementShortName">P6_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P6_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P7_reg" type="array">
+      <obj_property name="ElementShortName">P7_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P7_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P_count" type="array">
+      <obj_property name="ElementShortName">P_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P1_count" type="array">
+      <obj_property name="ElementShortName">P1_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P1_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P2_count" type="array">
+      <obj_property name="ElementShortName">P2_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P2_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P3_count" type="array">
+      <obj_property name="ElementShortName">P3_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P3_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P4_count" type="array">
+      <obj_property name="ElementShortName">P4_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P4_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P5_count" type="array">
+      <obj_property name="ElementShortName">P5_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P5_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P6_count" type="array">
+      <obj_property name="ElementShortName">P6_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P6_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P7_count" type="array">
+      <obj_property name="ElementShortName">P7_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P7_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/P_bit_cont" type="array">
+      <obj_property name="ElementShortName">P_bit_cont[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_bit_cont[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/temp_bit_count" type="array">
+      <obj_property name="ElementShortName">temp_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/i" type="array">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/temp_message_data" type="array">
+      <obj_property name="ElementShortName">temp_message_data[37:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_message_data[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/Decoded_message_data" type="array">
+      <obj_property name="ElementShortName">Decoded_message_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Decoded_message_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/bit_count" type="array">
+      <obj_property name="ElementShortName">bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P07" type="logic">
+      <obj_property name="ElementShortName">D_P07</obj_property>
+      <obj_property name="ObjectShortName">D_P07</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P" type="logic">
+      <obj_property name="ElementShortName">D_P</obj_property>
+      <obj_property name="ObjectShortName">D_P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P1" type="logic">
+      <obj_property name="ElementShortName">D_P1</obj_property>
+      <obj_property name="ObjectShortName">D_P1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P2" type="logic">
+      <obj_property name="ElementShortName">D_P2</obj_property>
+      <obj_property name="ObjectShortName">D_P2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P3" type="logic">
+      <obj_property name="ElementShortName">D_P3</obj_property>
+      <obj_property name="ObjectShortName">D_P3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P4" type="logic">
+      <obj_property name="ElementShortName">D_P4</obj_property>
+      <obj_property name="ObjectShortName">D_P4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P5" type="logic">
+      <obj_property name="ElementShortName">D_P5</obj_property>
+      <obj_property name="ObjectShortName">D_P5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P6" type="logic">
+      <obj_property name="ElementShortName">D_P6</obj_property>
+      <obj_property name="ObjectShortName">D_P6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P7" type="logic">
+      <obj_property name="ElementShortName">D_P7</obj_property>
+      <obj_property name="ObjectShortName">D_P7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_Pn" type="logic">
+      <obj_property name="ElementShortName">D_Pn</obj_property>
+      <obj_property name="ObjectShortName">D_Pn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_index_of_error" type="array">
+      <obj_property name="ElementShortName">D_index_of_error[6:0]</obj_property>
+      <obj_property name="ObjectShortName">D_index_of_error[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_n_state" type="array">
+      <obj_property name="ElementShortName">D_n_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_n_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P_reg_count" type="array">
+      <obj_property name="ElementShortName">D_P_reg_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P_reg_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_m_bit_count" type="array">
+      <obj_property name="ElementShortName">D_m_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_m_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_t_m_b_count" type="array">
+      <obj_property name="ElementShortName">D_t_m_b_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_t_m_b_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_start" type="logic">
+      <obj_property name="ElementShortName">D_start</obj_property>
+      <obj_property name="ObjectShortName">D_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_n" type="array">
+      <obj_property name="ElementShortName">D_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P1_reg" type="array">
+      <obj_property name="ElementShortName">D_P1_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P1_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P2_reg" type="array">
+      <obj_property name="ElementShortName">D_P2_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P2_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P3_reg" type="array">
+      <obj_property name="ElementShortName">D_P3_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P3_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P4_reg" type="array">
+      <obj_property name="ElementShortName">D_P4_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P4_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P5_reg" type="array">
+      <obj_property name="ElementShortName">D_P5_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P5_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P6_reg" type="array">
+      <obj_property name="ElementShortName">D_P6_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P6_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P7_reg" type="array">
+      <obj_property name="ElementShortName">D_P7_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P7_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P_count" type="array">
+      <obj_property name="ElementShortName">D_P_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P1_count" type="array">
+      <obj_property name="ElementShortName">D_P1_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P1_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P2_count" type="array">
+      <obj_property name="ElementShortName">D_P2_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P2_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P3_count" type="array">
+      <obj_property name="ElementShortName">D_P3_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P3_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P4_count" type="array">
+      <obj_property name="ElementShortName">D_P4_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P4_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P5_count" type="array">
+      <obj_property name="ElementShortName">D_P5_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P5_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P6_count" type="array">
+      <obj_property name="ElementShortName">D_P6_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P6_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P7_count" type="array">
+      <obj_property name="ElementShortName">D_P7_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P7_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P_bit_cont" type="array">
+      <obj_property name="ElementShortName">D_P_bit_cont[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P_bit_cont[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_temp_bit_count" type="array">
+      <obj_property name="ElementShortName">D_temp_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_temp_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_temp_message_data" type="array">
+      <obj_property name="ElementShortName">D_temp_message_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_temp_message_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_temp_message_data1" type="array">
+      <obj_property name="ElementShortName">D_temp_message_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_temp_message_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_bit_count" type="array">
+      <obj_property name="ElementShortName">D_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_P_reg" type="array">
+      <obj_property name="ElementShortName">D_P_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">D_P_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_rotation_count" type="array">
+      <obj_property name="ElementShortName">D_rotation_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rotation_count[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_EC/D_temp_encodded_data" type="array">
+      <obj_property name="ElementShortName">D_temp_encodded_data[37:0]</obj_property>
+      <obj_property name="ObjectShortName">D_temp_encodded_data[37:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider569">
+      <obj_property name="label">DUAL_PORT_BRAM_WAVES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/M_rst" type="logic">
+      <obj_property name="ElementShortName">M_rst</obj_property>
+      <obj_property name="ObjectShortName">M_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/m_clka" type="logic">
+      <obj_property name="ElementShortName">m_clka</obj_property>
+      <obj_property name="ObjectShortName">m_clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/m_clkb" type="logic">
+      <obj_property name="ElementShortName">m_clkb</obj_property>
+      <obj_property name="ObjectShortName">m_clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/web" type="logic">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/WA_valid" type="logic">
+      <obj_property name="ElementShortName">WA_valid</obj_property>
+      <obj_property name="ObjectShortName">WA_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/addra" type="array">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/dina" type="array">
+      <obj_property name="ElementShortName">dina[37:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/douta" type="array">
+      <obj_property name="ElementShortName">douta[37:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[37:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/State_a" type="array">
+      <obj_property name="ElementShortName">State_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">State_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/State_b" type="array">
+      <obj_property name="ElementShortName">State_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">State_b[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider568">
+      <obj_property name="label">ECC_DECODING WAVES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/encodded_data" type="array">
+      <obj_property name="ElementShortName">encodded_data[37:0]</obj_property>
+      <obj_property name="ObjectShortName">encodded_data[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/DE_ready" type="logic">
+      <obj_property name="ElementShortName">DE_ready</obj_property>
+      <obj_property name="ObjectShortName">DE_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/d_clk" type="logic">
+      <obj_property name="ElementShortName">d_clk</obj_property>
+      <obj_property name="ObjectShortName">d_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/d_rst" type="logic">
+      <obj_property name="ElementShortName">d_rst</obj_property>
+      <obj_property name="ObjectShortName">d_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/S_ready" type="logic">
+      <obj_property name="ElementShortName">S_ready</obj_property>
+      <obj_property name="ObjectShortName">S_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/o_WD_valid" type="logic">
+      <obj_property name="ElementShortName">o_WD_valid</obj_property>
+      <obj_property name="ObjectShortName">o_WD_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/message_data" type="array">
+      <obj_property name="ElementShortName">message_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">message_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P07" type="logic">
+      <obj_property name="ElementShortName">P07</obj_property>
+      <obj_property name="ObjectShortName">P07</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P1" type="logic">
+      <obj_property name="ElementShortName">P1</obj_property>
+      <obj_property name="ObjectShortName">P1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P2" type="logic">
+      <obj_property name="ElementShortName">P2</obj_property>
+      <obj_property name="ObjectShortName">P2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P3" type="logic">
+      <obj_property name="ElementShortName">P3</obj_property>
+      <obj_property name="ObjectShortName">P3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P4" type="logic">
+      <obj_property name="ElementShortName">P4</obj_property>
+      <obj_property name="ObjectShortName">P4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P5" type="logic">
+      <obj_property name="ElementShortName">P5</obj_property>
+      <obj_property name="ObjectShortName">P5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P6" type="logic">
+      <obj_property name="ElementShortName">P6</obj_property>
+      <obj_property name="ObjectShortName">P6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P7" type="logic">
+      <obj_property name="ElementShortName">P7</obj_property>
+      <obj_property name="ObjectShortName">P7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/Pn" type="logic">
+      <obj_property name="ElementShortName">Pn</obj_property>
+      <obj_property name="ObjectShortName">Pn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/index_of_error" type="array">
+      <obj_property name="ElementShortName">index_of_error[6:0]</obj_property>
+      <obj_property name="ObjectShortName">index_of_error[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/n_state" type="array">
+      <obj_property name="ElementShortName">n_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P_reg_count" type="array">
+      <obj_property name="ElementShortName">P_reg_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_reg_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/m_bit_count" type="array">
+      <obj_property name="ElementShortName">m_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/t_m_b_count" type="array">
+      <obj_property name="ElementShortName">t_m_b_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t_m_b_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/n" type="array">
+      <obj_property name="ElementShortName">n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P1_reg" type="array">
+      <obj_property name="ElementShortName">P1_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P1_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P2_reg" type="array">
+      <obj_property name="ElementShortName">P2_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P2_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P3_reg" type="array">
+      <obj_property name="ElementShortName">P3_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P3_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P4_reg" type="array">
+      <obj_property name="ElementShortName">P4_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P4_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P5_reg" type="array">
+      <obj_property name="ElementShortName">P5_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P5_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P6_reg" type="array">
+      <obj_property name="ElementShortName">P6_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P6_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P7_reg" type="array">
+      <obj_property name="ElementShortName">P7_reg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">P7_reg[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P_count" type="array">
+      <obj_property name="ElementShortName">P_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P1_count" type="array">
+      <obj_property name="ElementShortName">P1_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P1_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P2_count" type="array">
+      <obj_property name="ElementShortName">P2_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P2_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P3_count" type="array">
+      <obj_property name="ElementShortName">P3_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P3_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P4_count" type="array">
+      <obj_property name="ElementShortName">P4_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P4_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P5_count" type="array">
+      <obj_property name="ElementShortName">P5_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P5_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P6_count" type="array">
+      <obj_property name="ElementShortName">P6_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P6_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P7_count" type="array">
+      <obj_property name="ElementShortName">P7_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P7_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P_bit_cont" type="array">
+      <obj_property name="ElementShortName">P_bit_cont[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P_bit_cont[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/temp_bit_count" type="array">
+      <obj_property name="ElementShortName">temp_bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/temp_message_data" type="array">
+      <obj_property name="ElementShortName">temp_message_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_message_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/temp_message_data1" type="array">
+      <obj_property name="ElementShortName">temp_message_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_message_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/bit_count" type="array">
+      <obj_property name="ElementShortName">bit_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/P_reg" type="array">
+      <obj_property name="ElementShortName">P_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">P_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/rotation_count" type="array">
+      <obj_property name="ElementShortName">rotation_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rotation_count[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/Hamming_DC/temp_encodded_data" type="array">
+      <obj_property name="ElementShortName">temp_encodded_data[37:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_encodded_data[37:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider486">
+      <obj_property name="label">CHECK_LIST_WAVE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">AWREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">AWREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">AWVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">AWVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWADDR_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWADDR_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AWADDR_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWBURST_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWBURST_mem_contlr_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AWBURST_mem_contlr_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWLEN_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWLEN_mem_contlr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AWLEN_mem_contlr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWSIZE_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWSIZE_mem_contlr_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AWSIZE_mem_contlr_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/AWID_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">AWID_mem_contlr_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AWID_mem_contlr_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WREADY_mem_contlr_in" type="logic">
+      <obj_property name="ElementShortName">WREADY_mem_contlr_in</obj_property>
+      <obj_property name="ObjectShortName">WREADY_mem_contlr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WVALID_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">WVALID_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">WVALID_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WDATA_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">WDATA_mem_contlr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_mem_contlr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WSTRB_mem_contlr_out" type="array">
+      <obj_property name="ElementShortName">WSTRB_mem_contlr_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WSTRB_mem_contlr_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/WLAST_mem_contlr_out" type="logic">
+      <obj_property name="ElementShortName">WLAST_mem_contlr_out</obj_property>
+      <obj_property name="ObjectShortName">WLAST_mem_contlr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM" type="array">
+      <obj_property name="ElementShortName">BRAM[199:0][37:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM[199:0][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[19]" type="array">
+      <obj_property name="ElementShortName">[19][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[19][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[18]" type="array">
+      <obj_property name="ElementShortName">[18][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[18][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[17]" type="array">
+      <obj_property name="ElementShortName">[17][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[17][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[16]" type="array">
+      <obj_property name="ElementShortName">[16][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[15]" type="array">
+      <obj_property name="ElementShortName">[15][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[15][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[14]" type="array">
+      <obj_property name="ElementShortName">[14][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[14][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[13]" type="array">
+      <obj_property name="ElementShortName">[13][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[13][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[12]" type="array">
+      <obj_property name="ElementShortName">[12][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[11]" type="array">
+      <obj_property name="ElementShortName">[11][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[10]" type="array">
+      <obj_property name="ElementShortName">[10][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[9]" type="array">
+      <obj_property name="ElementShortName">[9][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[8]" type="array">
+      <obj_property name="ElementShortName">[8][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[7]" type="array">
+      <obj_property name="ElementShortName">[7][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[6]" type="array">
+      <obj_property name="ElementShortName">[6][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[5]" type="array">
+      <obj_property name="ElementShortName">[5][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[4]" type="array">
+      <obj_property name="ElementShortName">[4][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[3]" type="array">
+      <obj_property name="ElementShortName">[3][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[2]" type="array">
+      <obj_property name="ElementShortName">[2][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[1]" type="array">
+      <obj_property name="ElementShortName">[1][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/main_Memory1/BRAM[0]" type="array">
+      <obj_property name="ElementShortName">[0][37:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/ECC_DE_complete" type="logic">
+      <obj_property name="ElementShortName">ECC_DE_complete</obj_property>
+      <obj_property name="ObjectShortName">ECC_DE_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[21]" type="array">
+      <obj_property name="ElementShortName">[21][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[21][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[20]" type="array">
+      <obj_property name="ElementShortName">[20][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[20][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[19]" type="array">
+      <obj_property name="ElementShortName">[19][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[19][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[18]" type="array">
+      <obj_property name="ElementShortName">[18][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[18][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[17]" type="array">
+      <obj_property name="ElementShortName">[17][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[17][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[16]" type="array">
+      <obj_property name="ElementShortName">[16][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[15]" type="array">
+      <obj_property name="ElementShortName">[15][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[15][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[14]" type="array">
+      <obj_property name="ElementShortName">[14][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[14][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[13]" type="array">
+      <obj_property name="ElementShortName">[13][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[13][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[12]" type="array">
+      <obj_property name="ElementShortName">[12][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[11]" type="array">
+      <obj_property name="ElementShortName">[11][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[10]" type="array">
+      <obj_property name="ElementShortName">[10][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[9]" type="array">
+      <obj_property name="ElementShortName">[9][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[8]" type="array">
+      <obj_property name="ElementShortName">[8][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[7]" type="array">
+      <obj_property name="ElementShortName">[7][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[6]" type="array">
+      <obj_property name="ElementShortName">[6][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[5]" type="array">
+      <obj_property name="ElementShortName">[5][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[4]" type="array">
+      <obj_property name="ElementShortName">[4][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[3]" type="array">
+      <obj_property name="ElementShortName">[3][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[2]" type="array">
+      <obj_property name="ElementShortName">[2][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[1]" type="array">
+      <obj_property name="ElementShortName">[1][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/top_ecc_bram/ECC_memory/mem[0]" type="array">
+      <obj_property name="ElementShortName">[0][67:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/rdata_beat_counter" type="array">
+      <obj_property name="ElementShortName">rdata_beat_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_beat_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/buffer_controller/mem_contlr_rburst_counter" type="array">
+      <obj_property name="ElementShortName">mem_contlr_rburst_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contlr_rburst_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AXI_top_design/DUT/axi_interconnect/rburst_txn_complete" type="logic">
+      <obj_property name="ElementShortName">rburst_txn_complete</obj_property>
+      <obj_property name="ObjectShortName">rburst_txn_complete</obj_property>
+   </wvobject>
+</wave_config>
