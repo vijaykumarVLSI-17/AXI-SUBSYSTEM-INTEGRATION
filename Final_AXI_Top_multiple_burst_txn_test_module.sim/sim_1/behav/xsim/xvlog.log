@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AXI_AR_Buffer/AXI_AR_Buffer.srcs/sources_1/new/AR_Buffer_design.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AR_Buffer_design
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/AXI_top_design.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_top_design
+INFO: [VRFC 10-2458] undeclared symbol wvalid, assumed default net type wire [D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/AXI_top_design.sv:529]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/Axi_Memory_contoller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_Memory_Controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/BRAM_Memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DUAL_PORT_BRAM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_Decoding.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECC_Decoding
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_Encoding.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECC_Encoding
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_MEM_CONTROLLER.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECC_MEM_CONTROLLER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/Interconnect_burst_test_dsgn.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Interconnect_test_dsgn
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/TOP_ECC_BRAM.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_ECC_BRAM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AXI_W_buffer/AXI_W_buffer.srcs/sources_1/imports/new/W_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_FIFO_design
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AW_Buffer/AW_Buffer.srcs/sources_1/imports/imports/axi_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AW_FIFO_design
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sim_1/imports/new/test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_AXI_top_design

@@ -1,0 +1,175 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+TB: time=0 i_wdata=xxxxxxxx I_in_WDATA=xxxxxxxx
+[0] RVALID_IN=x, RREADY_OUT=1, 
+i value 00000000000000000000000000000000 -
+TB: time=50000 i_wdata=a5a5a5a5 I_in_WDATA=a5a5a5a5
+[60000] RVALID_IN=0, RREADY_OUT=1, 
+i value 00000000000000000000000000000001 -
+Stored memory DATA -xxxxxxxxxx
+TB: time=70000 i_wdata=a5a5a5a6 I_in_WDATA=a5a5a5a6
+i value 00000000000000000000000000000010 -
+Stored memory DATA -0fa5a5a5a5
+TB: time=90000 i_wdata=a5a5a5a7 I_in_WDATA=a5a5a5a7
+i value 00000000000000000000000000000011 -
+Stored memory DATA -0fa5a5a5a6
+TB: time=110000 i_wdata=a5a5a5a8 I_in_WDATA=a5a5a5a8
+Stored memory DATA -0fa5a5a5a7
+j value 00000000000000000000000000000000 -
+TB: time=240000 i_wdata=a2a2a2a2 I_in_WDATA=a2a2a2a2
+j value 00000000000000000000000000000001 -
+Stored memory DATA -1fa5a5a5a8
+TB: time=260000 i_wdata=a2a2a2a3 I_in_WDATA=a2a2a2a3
+j value 00000000000000000000000000000010 -
+Stored memory DATA -0fa2a2a2a2
+TB: time=280000 i_wdata=a2a2a2a4 I_in_WDATA=a2a2a2a4
+j value 00000000000000000000000000000011 -
+Stored memory DATA -0fa2a2a2a3
+TB: time=300000 i_wdata=a2a2a2a5 I_in_WDATA=a2a2a2a5
+j value 00000000000000000000000000000100 -
+Stored memory DATA -0fa2a2a2a4
+TB: time=320000 i_wdata=a2a2a2a6 I_in_WDATA=a2a2a2a6
+Stored memory DATA -0fa2a2a2a5
+  0 - valid_counter
+00000011 - stored_memory_length
+k value 00000000000000000000000000000000 -
+TB: time=480000 i_wdata=12345678 I_in_WDATA=12345678
+k value 00000000000000000000000000000001 -
+Stored memory DATA -1fa2a2a2a6
+TB: time=500000 i_wdata=12345679 I_in_WDATA=12345679
+k value 00000000000000000000000000000010 -
+Stored memory DATA -0f12345678
+TB: time=520000 i_wdata=1234567a I_in_WDATA=1234567a
+Stored memory DATA -0f12345679
+message data = a5a5a5a6
+old data = a5a5a5a5
+Strobe = 1111
+new message data = a5a5a5a6
+-----------------------------------
+  1 - valid_counter
+00000011 - stored_memory_length
+message data = a5a5a5a7
+old data = a5a5a5a6
+Strobe = 1111
+new message data = a5a5a5a7
+-----------------------------------
+  2 - valid_counter
+00000011 - stored_memory_length
+message data = a5a5a5a8
+old data = a5a5a5a7
+Strobe = 1111
+new message data = a5a5a5a8
+-----------------------------------
+  3 - valid_counter
+00000011 - stored_memory_length
+00000011 - valid_counter
+read transaction test -xxxxxxxx
+message data = a2a2a2a2
+old data = a5a5a5a8
+Strobe = 1111
+new message data = a2a2a2a2
+-----------------------------------
+[2080000] RVALID_IN=1, RREADY_OUT=1, 
+read data - xxxxxxxx:
+[2100000] RVALID_IN=0, RREADY_OUT=1, 
+read data - 00000000:
+  0 - valid_counter
+00000100 - stored_memory_length
+[2260000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a5a5a5a5:
+[2280000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a5a5a5a5:
+message data = a2a2a2a3
+old data = a2a2a2a2
+Strobe = 1111
+new message data = a2a2a2a3
+-----------------------------------
+[2540000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a5a5a5a6:
+[2560000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a5a5a5a6:
+  1 - valid_counter
+00000100 - stored_memory_length
+[2720000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a5a5a5a7:
+[2740000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a5a5a5a7:
+message data = a2a2a2a4
+old data = a2a2a2a3
+Strobe = 1111
+new message data = a2a2a2a4
+-----------------------------------
+  2 - valid_counter
+00000100 - stored_memory_length
+read transaction test -00000001
+message data = a2a2a2a5
+old data = a2a2a2a4
+Strobe = 1111
+new message data = a2a2a2a5
+-----------------------------------
+[3500000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a5a5a5a8:
+[3520000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a5a5a5a8:
+  3 - valid_counter
+00000100 - stored_memory_length
+[3680000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a2a2a2a2:
+[3700000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a2a2a2a2:
+message data = a2a2a2a6
+old data = a2a2a2a5
+Strobe = 1111
+new message data = a2a2a2a6
+-----------------------------------
+[3960000] RVALID_IN=1, RREADY_OUT=1, 
+  4 - valid_counter
+00000100 - stored_memory_length
+00000100 - valid_counter
+read data - a2a2a2a3:
+[3980000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a2a2a2a3:
+[4140000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a2a2a2a4:
+[4160000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a2a2a2a4:
+message data = 12345678
+old data = a2a2a2a6
+Strobe = 1111
+new message data = 12345678
+-----------------------------------
+  0 - valid_counter
+00000010 - stored_memory_length
+[4420000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a2a2a2a5:
+[4440000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a2a2a2a5:
+message data = 12345679
+old data = 12345678
+Strobe = 1111
+new message data = 12345679
+-----------------------------------
+$finish called at time : 4800 ns : File "D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sim_1/imports/new/test.sv" Line 327
+read transaction test -00000002
+  1 - valid_counter
+00000010 - stored_memory_length
+[5120000] RVALID_IN=1, RREADY_OUT=1, 
+read data - a2a2a2a6:
+message data = 1234567a
+old data = 12345679
+Strobe = 1111
+new message data = 1234567a
+-----------------------------------
+[5140000] RVALID_IN=0, RREADY_OUT=1, 
+read data - a2a2a2a6:
+  2 - valid_counter
+00000010 - stored_memory_length
+00000010 - valid_counter
+[5300000] RVALID_IN=1, RREADY_OUT=1, 
+read data - 12345678:
+[5320000] RVALID_IN=0, RREADY_OUT=1, 
+read data - 12345678:
+[5580000] RVALID_IN=1, RREADY_OUT=1, 
+read data - 12345679:
+[5600000] RVALID_IN=0, RREADY_OUT=1, 
+read data - 12345679:

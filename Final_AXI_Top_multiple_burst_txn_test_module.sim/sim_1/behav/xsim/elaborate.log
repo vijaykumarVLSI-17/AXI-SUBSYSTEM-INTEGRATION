@@ -1,0 +1,27 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto fe576b57f70347518454285bb8b9e646 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AXI_top_design_behav xil_defaultlib.tb_AXI_top_design xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 5 for port 'W_fifo_occupancy' [D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/AXI_top_design.sv:639]
+WARNING: [VRFC 10-5021] port 'lite_in_BRESP' is not connected on this instance [D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/AXI_top_design.sv:483]
+WARNING: [VRFC 10-3823] variable 'I_out_BVALID' might have multiple concurrent drivers [D:/Vivado Projects/Final_AXI_Top_multiple_burst_txn_test_module/Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/Interconnect_burst_test_dsgn.sv:512]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Interconnect_test_dsgn(STRB_WIDT...
+Compiling module xil_defaultlib.AW_FIFO_design(FIFO_WIDTH=50)
+Compiling module xil_defaultlib.W_FIFO_design(FIFO_DEPTH=32,STRB...
+Compiling module xil_defaultlib.AR_Buffer_design(FIFO_WIDTH=50)
+Compiling module xil_defaultlib.AXI_Memory_Controller(STRB_WIDTH...
+Compiling module xil_defaultlib.ECC_MEM_CONTROLLER
+Compiling module xil_defaultlib.ECC_Encoding
+Compiling module xil_defaultlib.DUAL_PORT_BRAM
+Compiling module xil_defaultlib.ECC_Decoding
+Compiling module xil_defaultlib.TOP_ECC_BRAM(MEM_DEPTH=50)
+Compiling module xil_defaultlib.AXI_top_design_default
+Compiling module xil_defaultlib.tb_AXI_top_design
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_AXI_top_design_behav

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AXI_AR_Buffer/AXI_AR_Buffer.srcs/sources_1/new/AR_Buffer_design.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/AXI_top_design.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/Axi_Memory_contoller.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/BRAM_Memory.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_Decoding.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_Encoding.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/ECC_MEM_CONTROLLER.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/new/Interconnect_burst_test_dsgn.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/new/TOP_ECC_BRAM.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AXI_W_buffer/AXI_W_buffer.srcs/sources_1/imports/new/W_buffer.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sources_1/imports/sources_1/imports/imports/Vivado Projects/AW_Buffer/AW_Buffer.srcs/sources_1/imports/imports/axi_fifo.sv" \
+"../../../../Final_AXI_Top_multiple_burst_txn_test_module.srcs/sim_1/imports/new/test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
